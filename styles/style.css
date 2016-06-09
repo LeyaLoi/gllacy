@@ -1,0 +1,26 @@
+body {
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.site-wrapper {
+  min-width: 940px;
+  background-color: #849d8f;
+  background-image: url("../img/slide-3.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.slider {
+  position: relative;
+  padding-top: 270px;
+  text-align: center;
+  color: #ffffff;
+}
+.slide-title {
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 60px;
+}
