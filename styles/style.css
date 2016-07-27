@@ -57,7 +57,7 @@ img {
 }
 .main-header .main-logo {
     position: absolute;
-    left: 20px;
+    left: 0px;
     top:10px;
 }
 .main-navigation {
@@ -65,9 +65,6 @@ img {
     margin: 0;
 }
 .main-navigation .nav-block {
-    /*float:left;
-    margin: 0;*/
-    /*padding: 0 6%;*/
     list-style: none;
     font-size: 0px;
 }
@@ -75,13 +72,14 @@ img {
     display: inline-block;
     vertical-align: top;
     /*width: 20%;*/
-    padding: 25px 10px;
+    padding-top: 27px;
+    padding-right: 27px;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 18px;
 }
 /**/
 .main-navigation li:nth-child(1) {
-  padding-left: 173px;
+  margin-left: 163px;
 }
 .main-navigation  a {
     font-weight: bold;
@@ -94,7 +92,8 @@ img {
   line-height: 26px;
 }
 .mini-menu ul {
-  padding: 25px 10px;
+  padding-top: 23px;
+  padding-left: 10px;
   list-style: none;
   font-size: 0px;
 }
@@ -110,7 +109,7 @@ img {
   font-size: 14px;
   line-height: 26px;
   color: #ffffff;
-  background-color: #9fb4a9;
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   text-decoration: none;
 }
@@ -135,7 +134,6 @@ img {
   left: 7px;
   width: 20px;
   height: 20px;
-
   background-image:  url("../img/lupa.png");
   background-repeat: no-repeat;
 }
@@ -144,12 +142,12 @@ background: transparent url("../img/input.png") no-repeat;
 }
 .mini-menu .basket {
   background: transparent url("../img/bag.png") no-repeat;*/
-}
+/*}*/
 
 .mini-menu .contacts {
-  position: absolute;
-  right:0;
-  top:70;
+    position: absolute;
+    top: 65px;
+    right: 0px;
 }
 /*-----------------------------------slider-------------------*/
 .slider {
